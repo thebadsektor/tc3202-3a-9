@@ -124,7 +124,7 @@ The app will automatically open in your browser at [http://localhost:3000](http:
 ├── server-app/             # Flask backend
 │   ├── api/
 │   ├── app.py
-│   └── requirements.txt
+│  
 ├── README.md
 ```
 
