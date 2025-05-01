@@ -133,9 +133,9 @@ The app will automatically open in your browser at [http://localhost:3000](http:
 ## Contributors
 
 - **Mishael Catignas** – 💻 Lead Developer / Full Stack & AI Integration  
-- **Britney Capellan** – UI/UX & Research Support  
-- **Howard Candidato** – Data Preparation & Documentation  
-- **Rjay Dntcaree** – Testing & Deployment Coordinator  
+- **Britney Capellan** – Moral Support 
+- **Howard Candidato** – Moral Support
+- **Rjay Dntcaree** – Moral Support 
 
 ---
 
