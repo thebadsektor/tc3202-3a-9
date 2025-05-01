@@ -1,0 +1,30 @@
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore node_modules folders in any subdirectory
+**/node_modules/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtualenv
+venv/
+env/
+
+# Ignore cache and output
+*.cache
+*.out
+
+# Ignore editor configs
+.vscode/
+.idea/
