@@ -1,6 +1,7 @@
 # VisageCheckAI – Facial Skin Disease Identifier
 
-![Project Banner](https://via.placeholder.com/1200x400.png?text=VisageCheckAI)
+![Project Banner](https://github.com/user-attachments/assets/ed6fbb89-02c2-4b7a-a661-1586c8df3c01)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -74,9 +75,16 @@ cd tc3202-3a-9
 cd chat-app
 npm install
 
-# 3. Install Python backend dependencies
-cd ../server-app
-pip install -r requirements.txt
+# 3. Install backend dependencies 
+cd server-app
+npm install
+
+# 4. Install root dependencies (including concurrently)
+cd ../../
+npm install
+
+# If you get an error about 'concurrently' not found, run this:
+npm install concurrently --save-dev
 ```
 
 ---
@@ -84,16 +92,13 @@ pip install -r requirements.txt
 ## Running the Application
 
 ```bash
-# Terminal 1 – Start Flask backend
-cd server-app
-python app.py
-
-# Terminal 2 – Start React frontend
-cd chat-app
-npm start
+# Starts both:
+# - Flask backend (server-app/app.py)
+# - React frontend (chat-app/)
+npm run start
 ```
 
-Then open [http://localhost:3000](http://localhost:3000)
+The app will automatically open in your browser at [http://localhost:3000](http://localhost:3000).
 
 ---
 
@@ -103,8 +108,9 @@ Then open [http://localhost:3000](http://localhost:3000)
 - Upload an image to analyze facial skin conditions.
 - View treatment advice and doctor recommendations with working profile links.
 
-![Chat UI](https://via.placeholder.com/1200x700.png?text=Chat+Demo)
-![Image Upload UI](https://via.placeholder.com/1200x700.png?text=Image+Upload+Demo)
+![Chat UI](https://github.com/user-attachments/assets/a87b0ab1-f4ff-4125-ab5d-9440533603ed)
+
+![Image Upload UI](https://github.com/user-attachments/assets/3371d4e8-e378-48f5-aff3-81f216415579)
 
 ---
 
